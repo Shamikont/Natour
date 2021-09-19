@@ -527,7 +527,7 @@ body {
   width: 75%;
   margin: 0 auto;
   box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.1);
-  background-color: rgba(#fff,0.6);
+  background-color: rgba(255, 255, 255, 0.6);
   border-radius: 3px;
   padding: 6rem;
   padding-left: 9rem;
@@ -548,7 +548,6 @@ body {
 .story__img {
   height: 100%;
   transform: translateX(-4rem) scale(1.4);
-/*   backface-visibility: hidden; */
   transition: all .5s;
 }
 
@@ -567,7 +566,6 @@ body {
   text-align: center;
   opacity: 0;
   transition: all .5s;
-/*   backface-visibility: hidden; */
 }
 
 .story:hover .story__caption {
@@ -579,6 +577,7 @@ body {
   transform: translateX(-4rem) scale(1);
   filter: blur(3px) brightness(80%);
 }
+
 .bg-video {
   position: absolute;
   top: 0;
