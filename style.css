@@ -548,7 +548,7 @@ body {
 .story__img {
   height: 100%;
   transform: translateX(-4rem) scale(1.4);
-  backface-visibility: hidden;
+/*   backface-visibility: hidden; */
   transition: all .5s;
 }
 
@@ -567,7 +567,7 @@ body {
   text-align: center;
   opacity: 0;
   transition: all .5s;
-  backface-visibility: hidden;
+/*   backface-visibility: hidden; */
 }
 
 .story:hover .story__caption {
